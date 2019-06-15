@@ -6,7 +6,7 @@
 
 |组件名|目录|扩展组件|扩展内容|
 |---|---|---|---|
-|wx-pulltorefresh-view|/xing-components/x-scroll-view|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|增加scroll-view自身的下拉和上拉刷新功能|
+|wx-pulltorefresh-view|/components/wx-pulltorefresh-view|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|增加scroll-view自身的下拉和上拉刷新功能|
 
 - xing-scroll-view下拉刷新效果：
 
