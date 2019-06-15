@@ -8,7 +8,7 @@
 |---|---|---|---|
 |wx-pulltorefresh-view|/components/wx-pulltorefresh-view|[scroll-view](https://mp.weixin.qq.com/debug/wxadoc/dev/component/scroll-view.html)|增加scroll-view自身的下拉和上拉刷新功能|
 
-- xing-scroll-view下拉刷新效果：
+- wx-pulltorefresh-view下拉刷新效果：
 
 ![](demo.gif)
 
@@ -40,7 +40,7 @@
 
 ## 组件文档
 
-### xing-scroll-view
+### wx-pulltorefresh-view
 
 |属性名|类型|默认值|说明|
 |---|---|---|---|
