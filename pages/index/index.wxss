@@ -1,0 +1,11 @@
+/**index.wxss**/
+.page-index {
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.list-item {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}

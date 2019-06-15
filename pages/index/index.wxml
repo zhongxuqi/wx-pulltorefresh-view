@@ -1,0 +1,5 @@
+<view class="page-index">
+  <pulltorefresh-view style="height:100%" nomore="{{nomore}}" refreshing="{{refreshing}}" bindpulldownrefresh="refreshData" bindloadmore="loadmoreData">
+    <view class="list-item" wx:for="{{colors}}" wx:for-index="index" wx:key="index" style="background: {{item}}">{{index + 1}}. {{item}}</view>
+  </pulltorefresh-view>
+</view>
