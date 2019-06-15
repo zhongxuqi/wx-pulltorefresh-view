@@ -27,7 +27,7 @@
             <icon class="iconfont icon-pull-down" space="nbsp"/>{{pullUpReleaseText}}
           </view>
           <view class="header-text" wx:if="{{pullUpStatus === 2}}">
-            <icon class="iconfont icon-loading loading" space="nbsp"/>{{loadingText}}...
+            <icon class="iconfont icon-loading loading" space="nbsp"/>{{loadmoreText}}...
           </view>
           <view class="header-text" wx:if="{{pullUpStatus === 3}}">
             <icon class="iconfont icon-complete" space="nbsp"/>{{loadmoreFinishText}}
