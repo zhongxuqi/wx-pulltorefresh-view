@@ -49,6 +49,10 @@ Component({
       type: Boolean,
       value: false,
     },
+    disablePullUp: {
+      type: Boolean,
+      value: false,
+    },
   },
   data: {
     pullDownStatus: 0,
@@ -85,7 +89,7 @@ Component({
           eventName: 'pulldownrefresh',
         })
         this.triggerEvent('pulldownrefresh');
-      } else if (this.data.isOutBound && this.data.offsetY < 40) {
+      } else if (this.data.isOutBound && this.data.offsetY < 40 && !this.properties.disablePullUp) {
         if (this.properties.nomore) {
           this.scrollToBottom()
         } else {

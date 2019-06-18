@@ -56,6 +56,7 @@
 |refreshing|Boolean|false|是否正在刷新|
 |nomore|Boolean|false|是否没有更多数据（加载完毕）|
 |disablePullDown|Boolean|false|是否开启下拉|
+|disablePullUp|Boolean|false|是否开启上拉|
 |bindpulldownrefresh|HandleEvent||当下拉刷新时触发|
 |bindloadmore|HandleEvent||当滚动到底部时触发|
 
