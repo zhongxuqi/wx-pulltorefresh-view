@@ -1,6 +1,6 @@
 <view id="pulltorefresh-view" class="pulltorefresh-view">
   <movable-area>
-    <movable-view id="pulltorefresh-view-container" y="{{offsetY}}" out-of-bounds="{{true}}" y="{{-offsetY}}" direction="vertical" bindtouchend="touchend" bindchange="change">
+    <movable-view id="pulltorefresh-view-container" out-of-bounds="{{true}}" y="{{-offsetY}}" direction="vertical" bindtouchend="touchend" bindchange="change">
       <view class="header">
         <view class="header-text" wx:if="{{pullDownStatus === 0 && !disablePullDown}}">
           <icon class="iconfont icon-pull-down" space="nbsp"/>{{pullText}}
